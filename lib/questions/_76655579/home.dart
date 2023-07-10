@@ -48,11 +48,7 @@ class _Question76655579State extends State<Question76655579> {
   Flexible Tasks() {
     return Flexible(
       child: ListView.builder(
-        itemBuilder: (context, indexnum) => Row(
-          children: [
-            SizedBox(width: MediaQuery.of(context).size.width, child: ListTile(title: Text(TodoVerileri[indexnum]))),
-          ],
-        ),
+        itemBuilder: (context, indexnum) => ListTile(title: Text(TodoVerileri[indexnum])),
         itemCount: TodoVerileri.length,
       ),
     );
