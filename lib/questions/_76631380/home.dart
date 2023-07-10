@@ -31,7 +31,7 @@ class Question76631380 extends StatelessWidget {
                     color: Colors.white,
                     image: DecorationImage(
                         image: NetworkImage('https://th.bing.com/th/id/OIP.TJDY2Ff5mVD0G8oRYvxjOwHaFC?pid=ImgDet&rs=1'), fit: BoxFit.none, scale: .6),
-                  ))),
+                  ),),),
             )
           ],
         ),
